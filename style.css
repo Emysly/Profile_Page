@@ -50,6 +50,12 @@ body {
 
 .box img {
   width: 100%;
+  box-shadow: 2px 2px 15px #b7b7b7;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
 }
 
 .box h1 {
