@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald:wght@700&family=Roboto:wght@500&display=swap");
 
 *,
 *::before,
@@ -58,11 +57,12 @@ body {
   letter-spacing: 4px;
   font-weight: 100;
   text-transform: uppercase;
-  text-shadow: 2px 2px 5px rgb(0, 153, 255);
+  text-shadow: 2px 2px 5px blue;
 }
 
 .box h2 {
   font-family: "Oswald", sans-serif;
+  font-weight: 100;
   font-size: 29px;
   text-shadow: 2px 2px 4px blue;
 }
@@ -189,6 +189,8 @@ input[type="submit"]:hover {
   margin: 0 auto;
   clip-path: ellipse();
   background-image: repeating-radial-gradient(green, blue);
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 .line2 {
@@ -198,4 +200,13 @@ input[type="submit"]:hover {
   margin: 0 auto;
   clip-path: ellipse();
   background-image: repeating-radial-gradient(green, blue);
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.id {
+  color: red;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
 }
